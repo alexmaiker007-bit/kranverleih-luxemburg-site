@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-label="Mobilkran auf Baustelle">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef3f7"/><stop offset="1" stop-color="#dfe8ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky)"/>
+  <!-- ground -->
+  <rect y="340" width="640" height="80" fill="#cfd6dc"/>
+  <rect y="336" width="640" height="6" fill="#b7c0c8"/>
+  <!-- building under construction -->
+  <g stroke="#9fb0bd" stroke-width="3" fill="#e7edf2">
+    <rect x="470" y="150" width="140" height="190"/>
+    <line x1="470" y1="200" x2="610" y2="200"/><line x1="470" y1="250" x2="610" y2="250"/><line x1="470" y1="300" x2="610" y2="300"/>
+    <line x1="516" y1="150" x2="516" y2="340"/><line x1="563" y1="150" x2="563" y2="340"/>
+  </g>
+  <!-- crane hook load -->
+  <g stroke="#5b6b78" stroke-width="3">
+    <line x1="352" y1="118" x2="352" y2="238"/>
+    <path d="M344 238 h16 v10 a8 8 0 0 1 -16 0 z" fill="#f2a81d" stroke="#132436"/>
+    <rect x="322" y="252" width="60" height="34" rx="3" fill="#8d9aa6" stroke="#132436"/>
+    <text x="352" y="274" font-family="Helvetica,Arial" font-size="13" font-weight="700" fill="#132436" text-anchor="middle">10 t</text>
+  </g>
+  <!-- crane boom -->
+  <g stroke="#132436" stroke-width="4" stroke-linecap="round">
+    <line x1="150" y1="120" x2="430" y2="80"/>
+    <line x1="150" y1="140" x2="430" y2="92"/>
+    <line x1="170" y1="122" x2="176" y2="139"/><line x1="210" y1="116" x2="216" y2="136"/>
+    <line x1="250" y1="110" x2="256" y2="131"/><line x1="290" y1="105" x2="296" y2="127"/>
+    <line x1="330" y1="100" x2="336" y2="123"/><line x1="370" y1="94" x2="376" y2="118"/>
+    <line x1="410" y1="88" x2="416" y2="113"/>
+  </g>
+  <line x1="430" y1="86" x2="430" y2="60" stroke="#132436" stroke-width="4"/>
+  <line x1="430" y1="62" x2="150" y2="96" stroke="#5b6b78" stroke-width="2"/>
+  <!-- crane cab / body -->
+  <g>
+    <rect x="96" y="150" width="96" height="58" rx="8" fill="#f2a81d" stroke="#132436" stroke-width="3"/>
+    <rect x="112" y="162" width="34" height="26" rx="4" fill="#eef3f7" stroke="#132436" stroke-width="2.5"/>
+    <rect x="86" y="206" width="120" height="16" rx="4" fill="#5b6b78" stroke="#132436" stroke-width="3"/>
+    <circle cx="110" cy="230" r="14" fill="#2b3a47" stroke="#132436" stroke-width="3"/>
+    <circle cx="182" cy="230" r="14" fill="#2b3a47" stroke="#132436" stroke-width="3"/>
+    <circle cx="110" cy="230" r="5" fill="#9fb0bd"/><circle cx="182" cy="230" r="5" fill="#9fb0bd"/>
+    <!-- outrigger -->
+    <line x1="86" y1="214" x2="52" y2="252" stroke="#132436" stroke-width="6" stroke-linecap="round"/>
+    <rect x="40" y="250" width="26" height="8" rx="2" fill="#5b6b78" stroke="#132436" stroke-width="2.5"/>
+    <line x1="206" y1="214" x2="240" y2="252" stroke="#132436" stroke-width="6" stroke-linecap="round"/>
+    <rect x="236" y="250" width="26" height="8" rx="2" fill="#5b6b78" stroke="#132436" stroke-width="2.5"/>
+    <!-- chassis -->
+    <rect x="80" y="206" width="140" height="26" rx="6" fill="#e6a51c" stroke="#132436" stroke-width="3"/>
+  </g>
+  <!-- traffic cone + pallet -->
+  <g stroke="#132436" stroke-width="2.5">
+    <path d="M292 340 l10 -26 l10 26 z" fill="#f2681d"/>
+    <rect x="288" y="336" width="28" height="6" rx="2" fill="#fff"/>
+    <rect x="410" y="322" width="44" height="8" fill="#c8a06a"/>
+    <rect x="414" y="310" width="36" height="12" fill="#a97f4b"/>
+  </g>
+  <text x="20" y="400" font-family="Helvetica,Arial" font-size="14" fill="#8b98a4">Illustrativ — Mobilkran, Hebung am Dach</text>
+</svg>
